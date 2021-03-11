@@ -18,8 +18,8 @@ const Leagues = (props) => {
         <Card>
           <Card.Body>
             <Card.Title>{strLeague}</Card.Title>
-            <Card.Text>{strSport}</Card.Text>
             <Card.Text>{strLeagueAlternate}</Card.Text>
+            <Card.Text>{strSport}</Card.Text>
             <Button variant="primary" onClick={handleClick}>
               Explore <FontAwesomeIcon icon={faArrowRight} />
             </Button>
